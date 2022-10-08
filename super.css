@@ -1,0 +1,104 @@
+/* 画像周りの余白調整 */
+.notion-image {
+  margin-top: 14px !important;
+  margin-bottom: 30px !important;
+}
+
+/* 文字の余白、行の高さ調整 */
+.notion-text__content {
+  line-height: 2;
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+/* 見出しの余白調整 */
+h2 {
+  margin-top: 60px !important;
+  margin-bottom: 20px !important;
+}
+
+h3 {
+  margin-top: 50px !important;
+  margin-bottom: 20px !important;
+}
+body {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+}
+.super-content {
+  padding-top: vh !important;
+}
+
+.notion-search__wrapper {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.notion-page__title .notion-semantic-string {
+  font-weight: 900 !important;
+  white-space: pre-wrap !important;
+  line-height: 1 !important;
+  font-size: 15px !important;
+}
+.notion-page__title .notion-semantic-string span {
+  line-height: 1 !important;
+}
+.notion-page > div:hover {
+  background: 0 0 !important;
+}
+.notion-table-of-contents {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.notion-table-of-contents__item {
+  margin: 10px 0 !important;
+  font-size: 15px !important;
+}
+.notion-table-of-contents__item .notion-semantic-string {
+  border: 0 !important;
+}
+.notion-table-of-contents__item a div {
+  padding: 0 !important;
+}
+.notion-table-of-contents__item:hover {
+  background: 0 0 !important;
+}
+.notion-text__content {
+  margin: 10px 0 !important;
+  padding: 0 !important;
+}
+.notion-semantic-string .link {
+  opacity: 1 !important;
+}
+.notion-heading {
+  margin: 2.4rem 0 2rem 0 !important;
+  font-weight: 600 !important;
+}
+.notion-property__title {
+  align-items: left !important;
+  justify-content: left !important;
+  padding-bottom: 0 !important;
+  font-size: 16px !important;
+  font-weight: 900 !important;
+  margin-top: 10px !important;
+  display: flex;
+}
+.notion-collection-card:hover {
+  background: #ebebeb83 !important;
+}
+.notion-property__title .notion-semantic-string {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.gallery .notion-property__title .notion-property__title__icon-wrapper {
+  display: none !important;
+}
+.gallery .notion-collection-card__property .notion-semantic-string {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: inherit;
+}
+.super-navbar__cta {
+  padding: 4px 8px;
+  font-size: 0.9em;
+}
